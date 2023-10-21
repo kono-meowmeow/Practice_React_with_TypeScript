@@ -1,2 +1,2 @@
 # Practice_React_with_TypeScript
-Created with CodeSandbox
+Try making React App using TypeScript
