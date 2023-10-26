@@ -1,9 +1,14 @@
+// TypeScriptの設定ファイル
+// プロジェクトに応じて設定を変更することができる
+// https://www.typescriptlang.org/ja/tsconfig
+
 {
     "include": [
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
+        "strict": true, // 型チェックが厳密になる
+        // "noImplicitAny": false, // any型を許可する
         "esModuleInterop": true,
         "lib": [
             "dom",
